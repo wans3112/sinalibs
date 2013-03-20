@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		2BD4FDA115F59F4400473A49 /* AWSiOSSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BD4FDA015F59F4400473A49 /* AWSiOSSDK.framework */; };
 		E6ABCC1D14988423008E0A37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6ABCC1C14988423008E0A37 /* Foundation.framework */; };
-		E6ABCC2314988423008E0A37 /* SinaWeiBoSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = E6ABCC2214988423008E0A37 /* SinaWeiBoSDK.m */; };
 		E6ABCC5D149885B0008E0A37 /* GTMBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = E6ABCC2E149885B0008E0A37 /* GTMBase64.h */; };
 		E6ABCC5E149885B0008E0A37 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = E6ABCC2F149885B0008E0A37 /* GTMBase64.m */; };
 		E6ABCC5F149885B0008E0A37 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = E6ABCC30149885B0008E0A37 /* GTMDefines.h */; };
@@ -44,8 +43,6 @@
 		E6ABCC1914988423008E0A37 /* libSinaWeiBoSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSinaWeiBoSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6ABCC1C14988423008E0A37 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E6ABCC2014988423008E0A37 /* SinaWeiBoSDK-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SinaWeiBoSDK-Prefix.pch"; sourceTree = "<group>"; };
-		E6ABCC2114988423008E0A37 /* SinaWeiBoSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SinaWeiBoSDK.h; sourceTree = "<group>"; };
-		E6ABCC2214988423008E0A37 /* SinaWeiBoSDK.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SinaWeiBoSDK.m; sourceTree = "<group>"; };
 		E6ABCC2E149885B0008E0A37 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
 		E6ABCC2F149885B0008E0A37 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
 		E6ABCC30149885B0008E0A37 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
@@ -157,8 +154,6 @@
 			isa = PBXGroup;
 			children = (
 				E6ABCC2C149885B0008E0A37 /* SinaWeiBoSDK */,
-				E6ABCC2114988423008E0A37 /* SinaWeiBoSDK.h */,
-				E6ABCC2214988423008E0A37 /* SinaWeiBoSDK.m */,
 				E6ABCC1F14988423008E0A37 /* Supporting Files */,
 			);
 			path = SinaWeiBoSDK;
@@ -324,7 +319,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6ABCC2314988423008E0A37 /* SinaWeiBoSDK.m in Sources */,
 				E6ABCC5E149885B0008E0A37 /* GTMBase64.m in Sources */,
 				E6ABCC6E149885B1008E0A37 /* SFHFKeychainUtils.m in Sources */,
 				E6ABCC70149885B1008E0A37 /* WBAuthorize.m in Sources */,
