@@ -33,6 +33,8 @@
 	UIWebView *webView;
     
     UIInterfaceOrientation previousOrientation;
+    UIInterfaceOrientation previousOrientation1;
+
     
     id<WBAuthorizeWebViewDelegate> delegate;
 }
